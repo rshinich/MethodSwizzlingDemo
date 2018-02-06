@@ -15,6 +15,12 @@
 		9F299FB220298376001A179A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F299FB120298376001A179A /* main.m */; };
 		9F299FBC20298376001A179A /* MethodSwizzlingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F299FBB20298376001A179A /* MethodSwizzlingDemoTests.m */; };
 		9F299FC720298376001A179A /* MethodSwizzlingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F299FC620298376001A179A /* MethodSwizzlingDemoUITests.m */; };
+		9F299FD6202993AA001A179A /* MSFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F299FD5202993AA001A179A /* MSFirstViewController.m */; };
+		9F299FD9202993F4001A179A /* MSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F299FD8202993F4001A179A /* MSSecondViewController.m */; };
+		9F299FDC20299400001A179A /* MSThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F299FDB20299400001A179A /* MSThirdViewController.m */; };
+		9F299FDF20299420001A179A /* MSFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F299FDE20299420001A179A /* MSFourthViewController.m */; };
+		9F299FE220299432001A179A /* MSFifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F299FE120299432001A179A /* MSFifthViewController.m */; };
+		9F299FE520299879001A179A /* UIViewController+MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F299FE420299879001A179A /* UIViewController+MethodSwizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,18 @@
 		9F299FC220298376001A179A /* MethodSwizzlingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MethodSwizzlingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F299FC620298376001A179A /* MethodSwizzlingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzlingDemoUITests.m; sourceTree = "<group>"; };
 		9F299FC820298376001A179A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F299FD4202993AA001A179A /* MSFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSFirstViewController.h; sourceTree = "<group>"; };
+		9F299FD5202993AA001A179A /* MSFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSFirstViewController.m; sourceTree = "<group>"; };
+		9F299FD7202993F4001A179A /* MSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSSecondViewController.h; sourceTree = "<group>"; };
+		9F299FD8202993F4001A179A /* MSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSSecondViewController.m; sourceTree = "<group>"; };
+		9F299FDA20299400001A179A /* MSThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSThirdViewController.h; sourceTree = "<group>"; };
+		9F299FDB20299400001A179A /* MSThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSThirdViewController.m; sourceTree = "<group>"; };
+		9F299FDD20299420001A179A /* MSFourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSFourthViewController.h; sourceTree = "<group>"; };
+		9F299FDE20299420001A179A /* MSFourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSFourthViewController.m; sourceTree = "<group>"; };
+		9F299FE020299432001A179A /* MSFifthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSFifthViewController.h; sourceTree = "<group>"; };
+		9F299FE120299432001A179A /* MSFifthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSFifthViewController.m; sourceTree = "<group>"; };
+		9F299FE320299879001A179A /* UIViewController+MethodSwizzling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MethodSwizzling.h"; sourceTree = "<group>"; };
+		9F299FE420299879001A179A /* UIViewController+MethodSwizzling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MethodSwizzling.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +123,18 @@
 				9F299FA320298376001A179A /* AppDelegate.m */,
 				9F299FA520298376001A179A /* ViewController.h */,
 				9F299FA620298376001A179A /* ViewController.m */,
+				9F299FD4202993AA001A179A /* MSFirstViewController.h */,
+				9F299FD5202993AA001A179A /* MSFirstViewController.m */,
+				9F299FD7202993F4001A179A /* MSSecondViewController.h */,
+				9F299FD8202993F4001A179A /* MSSecondViewController.m */,
+				9F299FDA20299400001A179A /* MSThirdViewController.h */,
+				9F299FDB20299400001A179A /* MSThirdViewController.m */,
+				9F299FDD20299420001A179A /* MSFourthViewController.h */,
+				9F299FDE20299420001A179A /* MSFourthViewController.m */,
+				9F299FE020299432001A179A /* MSFifthViewController.h */,
+				9F299FE120299432001A179A /* MSFifthViewController.m */,
+				9F299FE320299879001A179A /* UIViewController+MethodSwizzling.h */,
+				9F299FE420299879001A179A /* UIViewController+MethodSwizzling.m */,
 				9F299FA820298376001A179A /* Main.storyboard */,
 				9F299FAB20298376001A179A /* Assets.xcassets */,
 				9F299FAD20298376001A179A /* LaunchScreen.storyboard */,
@@ -265,8 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F299FDC20299400001A179A /* MSThirdViewController.m in Sources */,
 				9F299FA720298376001A179A /* ViewController.m in Sources */,
+				9F299FE220299432001A179A /* MSFifthViewController.m in Sources */,
+				9F299FE520299879001A179A /* UIViewController+MethodSwizzling.m in Sources */,
+				9F299FD6202993AA001A179A /* MSFirstViewController.m in Sources */,
 				9F299FB220298376001A179A /* main.m in Sources */,
+				9F299FD9202993F4001A179A /* MSSecondViewController.m in Sources */,
+				9F299FDF20299420001A179A /* MSFourthViewController.m in Sources */,
 				9F299FA420298376001A179A /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
